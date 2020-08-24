@@ -1,0 +1,11 @@
+.\ssi.o: ..\driverlib\ssi.c
+.\ssi.o: C:\Keil4\ARM\ARMCC\bin\..\include\stdbool.h
+.\ssi.o: C:\Keil4\ARM\ARMCC\bin\..\include\stdint.h
+.\ssi.o: ..\inc/hw_ints.h
+.\ssi.o: ..\inc/hw_memmap.h
+.\ssi.o: ..\inc/hw_ssi.h
+.\ssi.o: ..\inc/hw_sysctl.h
+.\ssi.o: ..\inc/hw_types.h
+.\ssi.o: ..\driverlib/debug.h
+.\ssi.o: ..\driverlib/interrupt.h
+.\ssi.o: ..\driverlib/ssi.h

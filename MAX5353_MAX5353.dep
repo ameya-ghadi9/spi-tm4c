@@ -1,0 +1,78 @@
+Dependencies for Project 'MAX5353', Target 'MAX5353': (DO NOT MODIFY !)
+F (.\startup.s)(0x519AD39A)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\SysTick.c)(0x5F3B7F5B)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --c99-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (SysTick.h)(0x5E89CCDE)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (../inc/tm4c123gh6pm.h)(0x5388B4CA)
+F (..\driverlib\ssi.c)(0x5388B48A)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --c99-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\ssi.o --omf_browse .\ssi.crf --depend .\ssi.d)
+I (C:\Keil4\ARM\ARMCC\include\stdbool.h)(0x51C86E14)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (..\inc/hw_ints.h)(0x5388B4C8)
+I (..\inc/hw_memmap.h)(0x5388B4C8)
+I (..\inc/hw_ssi.h)(0x5388B4C8)
+I (..\inc/hw_sysctl.h)(0x5388B4C8)
+I (..\inc/hw_types.h)(0x5388B4C8)
+I (..\driverlib/debug.h)(0x5388B48A)
+I (..\driverlib/interrupt.h)(0x5388B48A)
+I (..\driverlib/ssi.h)(0x5D2BCC01)
+F (..\driverlib\interrupt.c)(0x5388B48A)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --c99-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\interrupt.o --omf_browse .\interrupt.crf --depend .\interrupt.d)
+I (C:\Keil4\ARM\ARMCC\include\stdbool.h)(0x51C86E14)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (..\inc/hw_ints.h)(0x5388B4C8)
+I (..\inc/hw_nvic.h)(0x5388B4C8)
+I (..\inc/hw_types.h)(0x5388B4C8)
+I (..\driverlib/cpu.h)(0x5388B48A)
+I (..\driverlib/debug.h)(0x5388B48A)
+I (..\driverlib/interrupt.h)(0x5388B48A)
+F (..\driverlib\sysctl.c)(0x5388B48A)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --c99-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\sysctl.o --omf_browse .\sysctl.crf --depend .\sysctl.d)
+I (C:\Keil4\ARM\ARMCC\include\stdbool.h)(0x51C86E14)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (..\inc/hw_ints.h)(0x5388B4C8)
+I (..\inc/hw_nvic.h)(0x5388B4C8)
+I (..\inc/hw_sysctl.h)(0x5388B4C8)
+I (..\inc/hw_types.h)(0x5388B4C8)
+I (..\inc/hw_flash.h)(0x5388B4C8)
+I (..\driverlib/cpu.h)(0x5388B48A)
+I (..\driverlib/debug.h)(0x5388B48A)
+I (..\driverlib/interrupt.h)(0x5388B48A)
+I (..\driverlib/sysctl.h)(0x5E039F6C)
+F (..\driverlib\cpu.c)(0x5388B48A)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --c99-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\cpu.o --omf_browse .\cpu.crf --depend .\cpu.d)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (..\driverlib/cpu.h)(0x5388B48A)
+F (.\UART.c)(0x5F431DB3)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --c99-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (UART.h)(0x5E841A52)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (../inc/tm4c123gh6pm.h)(0x5388B4CA)
+F (.\PLL.c)(0x5D278E5C)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --c99-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (PLL.h)(0x5E039EF1)
+I (../inc/tm4c123gh6pm.h)(0x5388B4CA)
+F (..\driverlib\gpio.c)(0x5388B48A)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --c99-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (C:\Keil4\ARM\ARMCC\include\stdbool.h)(0x51C86E14)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (..\inc/hw_gpio.h)(0x5388B4C8)
+I (..\inc/hw_ints.h)(0x5388B4C8)
+I (..\inc/hw_memmap.h)(0x5388B4C8)
+I (..\inc/hw_sysctl.h)(0x5388B4C8)
+I (..\inc/hw_types.h)(0x5388B4C8)
+I (..\driverlib/debug.h)(0x5388B48A)
+I (..\driverlib/gpio.h)(0x5388B48A)
+I (..\driverlib/interrupt.h)(0x5388B48A)
+F (.\main.c)(0x5F3B73D5)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --c99-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (../inc/tm4c123gh6pm.h)(0x5388B4CA)
+I (../driverlib/sysctl.h)(0x5E039F6C)
+I (C:\Keil4\ARM\ARMCC\include\stdbool.h)(0x51C86E14)
+I (../driverlib/gpio.h)(0x5388B48A)
+I (../driverlib/ssi.h)(0x5D2BCC01)
+I (../inc/hw_memmap.h)(0x5388B4C8)
+I (PLL.h)(0x5E039EF1)
+I (UART.h)(0x5E841A52)
+I (SysTick.h)(0x5E89CCDE)
+I (tlv5616.h)(0x5F3B7509)
+F (.\tlv5616.c)(0x5F431DBA)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --c99-I C:\Keil4\ARM\RV31\INC-I C:\Keil4\ARM\CMSIS\Include-I C:\Keil4\ARM\Inc\TI\TM4C123-Drvmdk -DPART_LM4F120H5QR -DTM4C123GH6PM-o .\tlv5616.o --omf_browse .\tlv5616.crf --depend .\tlv5616.d)
+I (tlv5616.h)(0x5F3B7509)
+I (C:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (../inc/tm4c123gh6pm.h)(0x5388B4CA)
+I (../driverlib/ssi.h)(0x5D2BCC01)
+I (C:\Keil4\ARM\ARMCC\include\stdbool.h)(0x51C86E14)

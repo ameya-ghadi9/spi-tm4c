@@ -1,0 +1,12 @@
+.\main.o: main.c
+.\main.o: C:\Keil4\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: ../inc/tm4c123gh6pm.h
+.\main.o: ../driverlib/sysctl.h
+.\main.o: C:\Keil4\ARM\ARMCC\bin\..\include\stdbool.h
+.\main.o: ../driverlib/gpio.h
+.\main.o: ../driverlib/ssi.h
+.\main.o: ../inc/hw_memmap.h
+.\main.o: PLL.h
+.\main.o: UART.h
+.\main.o: SysTick.h
+.\main.o: tlv5616.h
